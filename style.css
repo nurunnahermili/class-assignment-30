@@ -1,0 +1,127 @@
+body, p, span, h1, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.my-header .nav-item:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: none;
+}
+
+.banner {
+  background-image: url(img/ia_200000012.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+}
+
+.banner .banner-in h3 {
+  padding: 30px 0;
+}
+
+.banner button {
+  color: #fff;
+  border: 1px solid #FC5E04;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.about {
+  padding: 50px 0;
+  background: #F7F9FF;
+}
+
+.about .letter-div {
+  margin-top: 80px;
+}
+
+.about .letter-div h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.about .letter-div p {
+  font-size: 23px;
+  line-height: 1.8em;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.about .end-div img {
+  max-width: 100%;
+}
+
+.feature-section .feature-item {
+  height: 300px;
+  -webkit-box-shadow: 4px 5px 30px 0px rgba(64, 87, 191, 0.1);
+          box-shadow: 4px 5px 30px 0px rgba(64, 87, 191, 0.1);
+}
+
+.feature-section .feature-item .left-im {
+  width: 40%;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+}
+
+.feature-section .feature-item .left-im img {
+  height: 100%;
+  width: auto;
+  max-width: inherit;
+  position: relative;
+  left: -80px;
+}
+
+.feature-section .feature-item .right-lekha {
+  width: 60%;
+  padding: 25px;
+}
+
+.feature-section .feature-item .right-lekha h5 {
+  font-weight: 600;
+}
+
+.feature-section .feature-item .right-lekha a {
+  border: 1px solid #FC5E04;
+  color: #FC5E04;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.range {
+  background: #F7F9FF;
+}
+
+.portpolio-section .amar {
+  width: 350px;
+}
+
+.portpolio-section .amar:hover a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.portpolio-section .amar img {
+  max-width: 100%;
+}
+
+.portpolio-section .amar a {
+  position: relative;
+  display: block;
+}
+
+.portpolio-section .amar a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(98, 120, 223, 0.7);
+  opacity: 0;
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */
